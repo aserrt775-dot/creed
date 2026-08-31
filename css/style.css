@@ -82,8 +82,8 @@ body{font-family:var(--font);color:var(--text);line-height:1.65;
 /* Lists */
 ol,ul{margin:0 0 16px 0;padding-left:24px;color:var(--text)}
 li{margin-bottom:7px}
-.check{list-style:none;padding-left:4px}
-.check li{padding-left:26px;position:relative}
+.check{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px 28px;counter-reset:none}
+.check li{padding-left:28px;position:relative}
 .check li::before{content:"✅";position:absolute;left:-2px;top:0;font-size:14px}
 
 /* Steps */
