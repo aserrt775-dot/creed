@@ -78,6 +78,18 @@ body{font-family:var(--font);color:var(--text);line-height:1.65;
 .hint b{color:var(--gold)}
 .warn{border-left:4px solid #ffb020;background:rgba(255,176,32,.08);border-radius:8px;padding:14px 16px;margin:20px 0}
 .danger{border-left:4px solid #ff3b3b;background:rgba(255,59,59,.08);border-radius:8px;padding:14px 16px;margin:20px 0}
+.section h3 small{font-weight:600;color:var(--muted);font-size:13px}
+
+/* Callouts (GitBook style tabs) */
+.callout{border:1px solid rgba(255,122,0,.25);border-left-width:4px;border-radius:10px;padding:14px 16px;margin:14px 0}
+.callout b{display:block;margin-bottom:4px;letter-spacing:1px;text-transform:uppercase;font-size:13.5px}
+.callout code{background:rgba(0,0,0,.3);border:1px solid rgba(255,122,0,.25)}
+.call-gold{border-left-color:var(--gold);background:rgba(255,122,0,.08)}
+.call-gold b{color:var(--gold)}
+.call-green{border-left-color:#37d67a;background:rgba(55,214,122,.08)}
+.call-green b{color:#37d67a}
+.call-blue{border-left-color:#4aa6ff;background:rgba(74,166,255,.08)}
+.call-blue b{color:#4aa6ff}
 
 /* Lists */
 ol,ul{margin:0 0 16px 0;padding-left:24px;color:var(--text)}
