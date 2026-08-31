@@ -87,10 +87,11 @@ li{margin-bottom:7px}
 .check li::before{content:"✅";position:absolute;left:-2px;top:0;font-size:14px}
 
 /* Steps */
-.steps{list-style:none;padding:0;counter-reset:step}
-.steps>li{counter-increment:step;position:relative;padding:16px 16px 16px 58px;background:linear-gradient(135deg,#151518,#0f0f12);border:1px solid rgba(255,122,0,.22);border-radius:12px;margin-bottom:12px;box-shadow:0 1px 0 rgba(255,122,0,.05)}
-.steps>li::before{content:counter(step,decimal-leading-zero);position:absolute;left:14px;top:16px;font-weight:900;font-size:20px;color:var(--gold)}
-.steps b{color:#fff;display:block;margin-bottom:4px}
+.steps{list-style:none;padding:0;counter-reset:step;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px 28px}
+.steps>li{counter-increment:step;position:relative;padding:6px 0 6px 44px;border-top:1px solid rgba(255,122,0,.2);margin-top:8px}
+.steps>li::before{content:counter(step,decimal-leading-zero);position:absolute;left:0;top:6px;font-weight:900;font-size:18px;color:var(--gold)}
+.steps b{color:var(--gold-2);display:block;margin-bottom:3px;font-size:15px}
+.steps li br{content:"";display:block;margin:4px 0}
 
 /* Code */
 code{font-family:var(--code);background:var(--bg-3);border:1px solid var(--border);border-radius:6px;padding:2px 6px;font-size:13.5px;color:var(--gold-2)}
