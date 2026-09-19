@@ -1,7 +1,7 @@
 {
-  "name": "creed",
+  "name": "zyro-tuto",
   "version": "1.0.0",
-  "description": "Creed Permanent Spoofer — docs website",
+  "description": "ZYRO Tutorial — Permanent Spoofer docs website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Creed server running on port ${PORT}`);
+  console.log(`ZYRO Tutorial server running on port ${PORT}`);
 });
